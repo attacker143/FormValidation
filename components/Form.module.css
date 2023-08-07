@@ -1,0 +1,54 @@
+body{
+    background-color: palegreen;
+}
+.container{
+text-align: center;
+background-color: aqua;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+padding: 10px;
+width: 400px;
+border-radius: 30px;
+box-shadow: 6px 6px 6px black;
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-family: bold;
+    display: block;
+}
+span{
+    display: block;
+    font-weight: bold;
+    color: red;
+}
+input{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+input::placeholder{
+    border-radius: 10px;
+}
+
+input[type='submit']{
+    background-color: black;
+    border: none;
+    color: aqua;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+}
+input[type='submit']:hover{
+    background-color: aqua;
+    color: black;
+}
